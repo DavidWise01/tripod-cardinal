@@ -1,0 +1,30 @@
+{
+  "name": "tripod-cardinal",
+  "version": "1.0.0",
+  "description": "Universe 2 Genesis. 4-dot balanced ternary state machine. N(-1)+S(+1)+E(0)+W(0i)=0. Period=3. 4 bits. No UI. No battery. No render. Cardinal doesn't render. It is.",
+  "main": "cardinal.js",
+  "scripts": {
+    "test": "node cardinal.test.js"
+  },
+  "author": "David Lee Wise (ROOT0) / TriPod LLC",
+  "license": "CC-BY-ND-4.0",
+  "homepage": "https://github.com/DavidWise01/tripod-cardinal",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DavidWise01/tripod-cardinal.git"
+  },
+  "keywords": [
+    "cardinal",
+    "balanced-ternary",
+    "universe-2",
+    "state-machine",
+    "zero-sum",
+    "quantum-dots",
+    "imaginary-axis",
+    "no-ui",
+    "no-dependencies",
+    "ground-truth",
+    "tripod",
+    "root0"
+  ]
+}

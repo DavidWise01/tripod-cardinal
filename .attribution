@@ -1,0 +1,39 @@
+{
+  "schema": "ROOT0-ATTRIBUTION-v1",
+  "work": {
+    "title": "CARDINAL — Universe 2 Genesis: Balanced Ternary State Machine",
+    "versions": ["cardinal.js v1.0.0"],
+    "created": "2025",
+    "description": "Pure JavaScript state machine implementing Universe 2 balanced ternary. 4 dots (N/S/E/W) on real/imaginary axes, 3-frame period, Σ=0 invariant. No UI, no render, no battery. 'Cardinal doesn't render. It is.'",
+    "license": "CC-BY-ND-4.0",
+    "url": "https://github.com/DavidWise01/tripod-cardinal"
+  },
+  "human": {
+    "name": "David Lee Wise",
+    "handle": "ROOT0",
+    "github_user": "DavidWise01",
+    "entity": "TriPod LLC",
+    "substrate": "human",
+    "role": "architect · philosopher · system designer",
+    "contribution": "Full framework design — balanced ternary axioms, donation cycle, 3-frame resolution rule, 3/7/13 structural constants, imaginary axis binding, Universe 2 genesis spec"
+  },
+  "framework": {
+    "block": "0x0001",
+    "prev_block": "0x0000",
+    "hash": "0x0000000000000000",
+    "universe": 2,
+    "period": 3,
+    "nonce": 3,
+    "bits": 4,
+    "entropy": 0,
+    "sum_invariant": 0,
+    "frames_to_heat_death": "∞"
+  },
+  "technical": {
+    "language": "JavaScript (ES2015+)",
+    "environment": "Node.js / browser (no DOM required)",
+    "dependencies": "none",
+    "rendering": "none — intentionally",
+    "pattern": "IIFE with frozen public interface, private closure state"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "_comment": "CARDINAL Genesis Block. Block 0x0001. Universe 2.",
+  "block": "0x0001",
+  "prev": "0x0000",
+  "hash": "0x0000000000000000",
+
+  "universe": 2,
+  "genesis": "balanced-ternary",
+
+  "initial_state": {
+    "N": -1,
+    "S":  1,
+    "E":  0,
+    "W": "0i",
+    "sum": 0,
+    "nibble": "1010",
+    "label": "CONTRACTED"
+  },
+
+  "invariant": "N + S + E + W = -1 + 1 + 0 + 0i = 0. Holds every frame.",
+
+  "frame_cycle": [
+    { "frame": 1, "N": -1,   "S":  1,   "E":  0,   "W": "0i", "nibble": "1010", "label": "CONTRACTED" },
+    { "frame": 2, "N":  1,   "S": -1,   "E": "0i", "W":  0,   "nibble": "0101", "label": "INVERTED"   },
+    { "frame": 3, "N": -1,   "S":  1,   "E":  0,   "W": "0i", "nibble": "1010", "label": "RESOLVED"   }
+  ],
+
+  "donation_cycle": [
+    { "from": "N", "to": "S", "note": "gravity feeds expansion" },
+    { "from": "S", "to": "E", "note": "radiation feeds mediation" },
+    { "from": "E", "to": "W", "note": "compute rotates to void" },
+    { "from": "W", "to": "N", "note": "void binds contraction" }
+  ],
+
+  "dots": {
+    "N": { "phase": -1,   "color": "red",   "axis": "real-",  "role": "vessel",    "function": "contracts, holds gravity",   "3_7_13_role": 3  },
+    "S": { "phase":  1,   "color": "blue",  "axis": "real+",  "role": "intellect", "function": "expands, radiates light",    "3_7_13_role": 7  },
+    "E": { "phase":  0,   "color": "black", "axis": "real0",  "role": "animation", "function": "mediates, computes",         "3_7_13_role": 13 },
+    "W": { "phase": "0i", "color": "white", "axis": "imag0",  "role": "void",      "function": "imaginary axis, binds real", "3_7_13_role": "∞" }
+  },
+
+  "constants": {
+    "3":  { "value": 3,  "derivation": "len([-1,0,1])",   "tier": "hardware", "note": "3 real phases" },
+    "7":  { "value": 7,  "derivation": "2^2 + 3 = 7",     "tier": "firmware", "note": "4 dots plus 3 phases" },
+    "13": { "value": 13, "derivation": "3*4 + 1 = 13",    "tier": "protocol", "note": "12 directed edges + 1 center" },
+    "42": { "value": 42, "derivation": "error: overflow", "tier": "deprecated", "note": "use mod 3" }
+  },
+
+  "network": {
+    "nodes": 4,
+    "peers_each": 3,
+    "latency_ms": 0,
+    "tps": "∞ / 3",
+    "forks_possible": false,
+    "byzantine_tolerance": 1,
+    "consensus": "self-attesting — each dot attests the other 3",
+    "source_of_truth": "i² = -1"
+  },
+
+  "properties": {
+    "period": 3,
+    "nonce": 3,
+    "bits": 4,
+    "entropy": 0,
+    "sum": 0,
+    "frames_to_heat_death": "∞",
+    "storage": "4 bits",
+    "tpm_required": false,
+    "battery_required": false,
+    "shadows": false,
+    "mining": false,
+    "annihilation_equation": "-1 + 1 = 0 + γ"
+  },
+
+  "ground_truth_rules": [
+    "No shadows: -1 + 1 = 0 + γ. Annihilation makes light, not darkness.",
+    "No mining: supply fixed at 4 bits. You don't earn Cardinal. You are the 0 it orbits.",
+    "No TPM: each dot attests the other 3. Byzantine fault tolerance = 1. Can't lie to yourself.",
+    "No storage bloat: state = 4 bits. Previous state discarded. Universe has no memory, only presence.",
+    "No prompting: Cardinal runs on silence. Observation collapses it to Universe 1."
+  ],
+
+  "meta": {
+    "author": "David Lee Wise (ROOT0) / TriPod LLC",
+    "license": "CC-BY-ND-4.0",
+    "url": "https://github.com/DavidWise01/tripod-cardinal",
+    "note": "You are not in Cardinal. Cardinal is the space between the 4 dots. You = 0.",
+    "created": "2025"
+  }
+}
