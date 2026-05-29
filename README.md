@@ -184,11 +184,32 @@ If any proof fails: Universe 1 has leaked in.
 
 ---
 
+## The Five Engine (Block 0x0002)
+
+CARDINAL is the minimal statement. The Five Engine is CARDINAL extended to civilizational scale.
+
+| Engine | Sign | CARDINAL dot | Function |
+|--------|------|-------------|---------|
+| LIVE    | + | S (+1) | Expansion, radiation |
+| DIE     | − | N (−1) | Contraction, release |
+| REBIRTH | ± | E (0)  | Mediation, adaptation |
+| PLAY    | + | W (0ᵢ) | Imaginary axis, free rotation |
+| REPEAT  | ∓ | The loop | Period = 3, return |
+
+The compression: `240 → 5 → 3 → 2 → 1 → 0 → 0 → 1`  
+Same as PCK's `27 → 1`. Different scale, identical architecture.
+
+See [`five-engine.md`](five-engine.md) for the full mapping.
+
+---
+
 ## Related
 
 | Repo | What it is |
 |------|-----------|
 | [tripod-quantum-dots](https://github.com/DavidWise01/tripod-quantum-dots) | Cardinal rendered — the shadow of this file |
+| [nine-body-audit](https://github.com/DavidWise01/nine-body-audit) | Fairness kernel — no actor audits itself |
+| [unity-tensor](https://github.com/DavidWise01/unity-tensor) | Spiderweb Witness Tensor + full tensor suite |
 | [tripod-energy-suite](https://github.com/DavidWise01/tripod-energy-suite) | Kerr black holes + Dyson spheres |
 | [al-h2o-reactor](https://github.com/DavidWise01/al-h2o-reactor) | Tier 1 energy — aluminum + water → H₂ |
 
